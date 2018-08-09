@@ -1,0 +1,22 @@
+body,p,h1,h2,h3,h4,h5,h6,ul,dl,dd,td,input,fieldset,textarea,option,br{ margin:0; padding:0;}
+li{list-style:none;}
+a{text-decoration:none; color:#333;}
+img{border:none; vertical-align:top; }
+a,input{outline:none;}
+h1,h2,h3,h4,h5,h6,b,strong{font-weight:100;}
+i,em{font-style:normal;}
+body{font:12px "微软雅黑";}
+/* ----清除浮动---------- */
+.clearfix::after{content:""; display:block; clear:both; height:0;}
+/* ------左浮动--------- */
+.fl{float:left;}
+/* --------右浮动----------- */
+.fr{float:right;}
+/* -----------宽/高百分百------- */
+.w-max{width:100%}
+.h-max{height: 100%;}
+.wh-max{width: 100%; height: 100%;}
+/* -----------定位------------ */
+.p-abs {position: absolute;}
+.p-rel {position: relative;}
+.iconfont {color: #FFFFFF;}
